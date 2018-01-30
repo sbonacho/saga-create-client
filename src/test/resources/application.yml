@@ -1,0 +1,9 @@
+kafka:
+  bootstrap-servers: ${spring.embedded.kafka.brokers}
+
+connector:
+  topics:
+    app: createClient
+    domains: production,comercial
+    saga: saga
+  group: sagaCreateClient

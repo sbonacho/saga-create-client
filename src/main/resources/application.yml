@@ -1,0 +1,12 @@
+kafka:
+  bootstrap-servers: 172.16.123.1:9092
+
+connector:
+  topics:
+    app: createClient
+    domains: production,comercial
+    saga: saga
+  group: sagaCreateClient
+
+saga:
+  timeout: 5000

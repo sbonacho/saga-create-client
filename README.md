@@ -60,3 +60,8 @@ Solved: Update to 2.0.0.M7 of spring-boot and 2.1.0.RC1 of spring-kafka adaptor.
 Events order could be different this must not change the final result of tests
 
 - Dockerfile has hardcoded version
+
+# TODO Tasks
+
+- Add Saga timeout of the overall transaction. If the overall transaction takes more than saga.timeout parameter saga must fails, sending ClientPortfolioFailed event.
+- Test saga behaviour when some error event is received

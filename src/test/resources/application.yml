@@ -7,3 +7,6 @@ connector:
     domains: production,comercial
     saga: saga
   group: sagaCreateClient
+
+saga:
+  timeout: 1000

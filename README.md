@@ -30,7 +30,7 @@ mvn install dockerfile:build
 This command starts the service with saga-create-client name
 
 ```
-docker run --rm -dit --name saga-create-client soprasteria/saga-create-client
+docker run --rm -dit --name saga-create-client sbonacho/saga-create-client
 ```
 
 Watching logs
